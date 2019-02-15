@@ -28,7 +28,14 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="List It" id="ODs-cy-2zG"/>
+                    <navigationItem key="navigationItem" title="List It" id="ODs-cy-2zG">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="e0K-O3-s7M">
+                            <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="hVW-ka-dmo" id="b0f-ZJ-Zgh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EPw-fw-K4Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
